@@ -1,0 +1,13 @@
+This is a simple demo of JSON using the Spoonacular API.
+
+To use this repository, you must follow these steps:
+
+0. Sign up for spoonacular at https://spoonacular.com/food-api/console.
+1. Navigate to https://spoonacular.com/food-api/console#Profile and find your API Key (THIS IS SECRET, DO NOT SHOW THIS TO OTHERS!).
+2. Clone this repository by using git clone.
+3. In your local copy of this repository, create a new root-level file called spoonacular.env
+4. Add the following line in spoonacular.env: 
+    SPOONACULAR_KEY='your_key_here'
+5. Run the following, where the brackets indicate optional changes to the command you may have to run:
+    [sudo] [/path/to/]pip[3] install python-dotenv
+6. Save spoonacular.env and run your python file.

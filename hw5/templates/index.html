@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <link rel="stylesheet" href={{ url_for('static', filename='style.css') }} />
+    </head>
+    <body>
+        <h1>These are {{ target }}'s tweets from the last 30 days!</h1>
+        <ol>
+            {%for i in range (0, len)%}
+            <li>
+                {{ tweetlist[i] }}
+      
+            </li>
+            {%endfor%}
+            
+        </ol>
+
+        
+    </body>
+    
+    
+</html>
+
+

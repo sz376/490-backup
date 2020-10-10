@@ -1,0 +1,16 @@
+body{
+    font-family: Arial;
+    text-align:left;
+    background-color: #89cff0;
+}
+
+ol{
+    font-size: 36px;
+    background-color: #b19cd9;
+}
+
+img{
+    width: 100px;
+    height: auto;
+    object-fit: cover;
+}
